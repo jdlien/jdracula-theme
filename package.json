@@ -1,18 +1,28 @@
 {
   "name": "jdracula",
+  "version": "1.0.0",
   "displayName": "jDracula",
   "description": "A variant of the Dracula theme with more muted colors and higher contrast.",
-  "version": "1.0.0",
+  "publisher": "jdlien",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdlien/jdracula-theme.git"
+  },
   "engines": {
     "vscode": "^1.75.0"
   },
   "categories": [
     "Themes"
   ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#282A36",
+    "theme": "dark"
+  },
   "contributes": {
     "themes": [
       {
-        "label": "jDracula Color Theme",
+        "label": "jDracula",
         "uiTheme": "vs-dark",
         "path": "./themes/jDracula-color-theme.json"
       }
